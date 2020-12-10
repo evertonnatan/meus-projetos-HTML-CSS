@@ -67,7 +67,6 @@ nav ul li a:hover{
     font-size: 16px;
     margin-top: 10px;
     width: 80%;
-    text-align: justify;
     color: #fff;
 }
 
@@ -90,16 +89,17 @@ nav ul li a:hover{
 }
 
 .header_main_img img{
+    background: fixed;
     
 }
 
 /* == social media icons styling == */
 
 .social_media{
-    padding-left: 30px;
-    padding-bottom: 50px;
+    padding-left: 70px;
+    padding-bottom: 100px;
     margin-left: 10px;
-    border: 2px solid #fff;
-    padding-top: 8px;
+    border: 2px;
+    padding-top: 24px;
 
 }
