@@ -60,3 +60,85 @@ li:nth-child(2){
     transform: translateY(5px);
 }
 /* == Navbar styling ends == */
+
+/*  hero section styling */
+.hero-section{
+    display: grid;
+    grid-template-columns: repeat(2, 700px 1fr);
+    align-items: center;
+}
+
+.hero-section-content{
+    margin-left: 60px;
+    margin-bottom: 100px;
+}
+
+.hero-section-content h3{
+    margin-top: -35px;
+    color: #4475e2;
+}
+
+.hero-section-content hr{
+    width: 130px;
+    margin-left: 0px;
+    margin-top: -10px;
+}
+
+.hero-section-content .btn{
+    border: none;
+    outline: none;
+    padding: 15px 45px;
+    background: transparent;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.hero-section-content .btn:hover{
+    transform: translateY(5px);    
+}
+
+.hero-section-content .btn1{
+    background: #17375b;
+}
+
+.hero-section-content .btn1:hover{
+    background-color: #4475e2;
+}
+
+.hero-section-content .btn2{
+    border: 2px solid #4475e2;
+    margin-left: 10px;
+    color: #4475e2;
+}
+
+.hero-section-content .btn2:hover{
+    background: #4475e2;
+    color: #fff;
+}
+
+/* == social media icons == */
+
+.social-media{
+    transform: translateY(80px) translateX(30px);
+}
+
+.social-media i{
+    font-size: 35px;
+    border: 2px solid #4475e2;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    border-radius: 50%;
+}
+
+.social-media i:hover{
+    background: #4475e2;
+    color: #fff;
+    transform: translateY(5px);
+}
