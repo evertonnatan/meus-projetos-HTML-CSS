@@ -1,53 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
 
-body{
-    margin: 0;
-    padding: 0;
-    background: #e84118;
+* {
+    background-image: url(images/background.jpg);
 }
 
-.search-box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #2f3640;
-    height: 40px;
-    border-radius: 40px;
-    padding: 10px;
-}
-
-.search-box:hover > .search-txt{
-    width: 240px;
-    padding: 0 6 px;
-}
-
-.search-box:hover > .search-btn{
-    background: white;
-}
-
-.search-btn{
-    color: #e84118;
-    float: right;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: #2f3640;
-    display: flex;
+form{
+    margin-top: 280px;
     justify-content: center;
-    align-items: center;
-    transition: 0.4s;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .search-txt{
-    border: none;
-    background: none;
-    outline: none;
-    float: left;
-    padding: 0;
-    color: white;
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 40px;
-    width: 0px;
+    justify-content:center;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 400px;
+    padding-left: 20px;
+    background-color: rgba(231, 55, 193, 0.39);
+    font-family: 'Comfortaa', cursive;
+    color:#fff;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
 }
