@@ -8,6 +8,7 @@
 </head>
 <body>
     <section>
+        <div class="circle"></div>
         <header>
             <a href="#"><img src="./images/logo.png" class="logo" alt="Logo Starbucks"></a>
             <ul>
@@ -19,15 +20,27 @@
         </header>
         <div class="content">
             <div class="textBox">
-                <h2>It's not just Coffee<br>It's<span>Starbucks</span></h2>
+                <h2>It's not just Coffee<br>It's<span> Starbucks</span></h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ex quibusdam ducimus ipsa, commodi, temporibus qui sunt hic ad rerum labore perferendis reiciendis explicabo. Error consectetur sed libero ipsam cupiditate?Soluta quidem molestiae quod veritatis architecto, facilis animi, totam iusto vero odit rerum voluptas sunt! Amet harum expedita impedit illo sequi nihil repellat omnis ea sed. Reiciendis distinctio minus temporibus.</p>
                 <a href="#">Learn More</a>
             </div>
             <div class="imgBox">
-                <img src="./images/img1.png" class="starbucks" alt="Bebida Starbucks">
+                <img src="./images/img1.png" class="starbucks" alt="Drinks Starbucks">
             </div>
         </div>
+        <ul class="thumb">
+            <li><img src="./images/thumb1.png" onclick="imgSlider('./images/img1.png');changeCircleColor('#017143')" alt="Flavours Starbucks"></li>
+            <li><img src="./images/thumb2.png" onclick="imgSlider('./images/img2.png');changeCircleColor('#eb7495')" alt="Flavours Starbucks"></li>
+            <li><img src="./images/thumb3.png" onclick="imgSlider('./images/img3.png');changeCircleColor('#d752b1')" alt="Flavours Starbucks"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="./images/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/instagram.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/twitter.png" alt=""></a></li>
+        </ul>
     </section>
+
+    <script src="scripts.js" type="text/javascript"></script>
     
 </body>
 </html>
