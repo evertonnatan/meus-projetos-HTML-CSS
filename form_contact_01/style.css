@@ -96,10 +96,6 @@ form{
     margin: 1rem 0;
 }
 
-/*label{
-    display: none;
-}*/
-
 .input{
     width: 100%;
     outline: none;
@@ -130,6 +126,7 @@ textarea.input{
     padding: 0 0.4rem;
     color: var(--secondary-color);
     font-size: 0.9rem;
+    font-weight: 400;
     pointer-events: none;
     z-index: 1000;
     transition: 0.5s;
@@ -203,4 +200,31 @@ textarea.input{
 .input-container.focus span:after{
     width: 50%;
     opacity: 1;
+}
+
+.contact-info{
+    padding: 2.3rem 2.2rem;
+    position: relative;
+}
+
+.contact-info .title{
+    color: var(--primary-color);
+}
+
+.text{
+    color: #333;
+    margin: 1.5rem 0 2rem 0;
+}
+
+.information{
+    display: flex;
+    color: #555;
+    margin: 0.7rem 0;
+    align-items: center;
+    font-size: 0.95rem;
+}
+
+.icon{
+    width: 28px;
+    margin-right: 0.7rem;
 }
