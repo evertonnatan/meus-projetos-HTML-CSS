@@ -7,13 +7,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <a href="#" class="logo">EverCoder<span>.</span></a>
+        <ul class="navigation">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="about">Sobre</a></li>
+            <li><a href="menu">Menu</a></li>
+            <li><a href="expert">Expert</a></li>
+            <li><a href="testimonials">Depoimentos</a></li>
+            <li><a href="contact">Contato</a></li>
+        </ul>
+    </header>
     <section class="banner" id="banner">
         <div class="content">
             <h2>Always Choose Good</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptatem, pariatur eveniet corporis incidunt cupiditate provident quo rerum cum laboriosam, dolor natus in corrupti voluptatibus voluptatum atque alias soluta suscipit.</p>
-            <a href="#">Our Menu</a>
+            <a href="#" class="btn">Our Menu</a>
+        </div>
+
+       
+    </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>A</span>bout Us</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora voluptate ut, excepturi eaque asperiores id doloremque. Fugiat vel eum, cupiditate nisi accusantium exercitationem in illo, non, modi quibusdam iure sit?</p>
+                <br>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, eos et alias quaerat illo aspernatur dolores dolor? Reprehenderit odit unde, similique blanditiis eum placeat iusto ex reiciendis minima quas atque?</p>
+            </div>
+
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="./images/img1.jpg" alt="">
+                </div>
+            </div>
         </div>
     </section>
     
+    <script type="text/javascript">
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header')
+            header.classList.toggle("sticky", window.scrollY > 0)
+        })
+    </script>
 </body>
 </html>
