@@ -161,6 +161,20 @@ section{
     height: 100%;
     object-fit: cover;
 }
+ .title{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+
+
+
+
+
+
 
 /*
 CONTINUAR DOS 15 MINUTOS
