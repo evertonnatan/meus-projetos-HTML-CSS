@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,500;0,600;0,700;0,900;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 
 :root {
     --primary-color: #3F90EE;
@@ -11,7 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat Alternates', sans-serif;
+    /*font-family: 'Montserrat Alternates', sans-serif;*/
     scroll-behavior: smooth;
 }
 
@@ -37,29 +38,46 @@ p{
 }
 
 .banner .content h2{
-    font-size: 5em;
+    font-size: 3.5em;
     color: #fff;
+    text-align: left;
 }
 
 .banner .content p{
     font-size: 1em;
-    color: #fff;
+    color: #B0C4DE;
     font-weight: 900;
+    text-align: left;
+}
+
+.banner .content .saudation{
+    text-align: left;
+    color: #fff;
+    font-family: 'Syne Mono', monospace;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.banner .content .presentation{
+    font-size: 2.5em;
+    color: #B0C4DE;
+    text-align: left;
 }
 
 .btn {
-    font-size: 1em;
-    font-weight: 600;
+    font-size: 1.5em;
+    font-weight: 900;
     color: #fff;
     background: var(--primary-color);
     display: inline-block;
     border-radius: 12px;
     padding: 10px 30px;
-    margin-top: 20px;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
     transition: 0.5s;
+    margin-top: 20px;
+
 }
 
 .btn:hover{
@@ -103,6 +121,8 @@ header .logo span{
 header .navigation{
     position: relative;
     display: flex;
+    font-family: 'Syne Mono', monospace;
+
 }
 
 header .navigation li{
@@ -251,7 +271,7 @@ section{
     color: #111;
 }
 
-.testimonials{
+/*.testimonials{
     background: url(./images/bg2.jpg);
     background-size: cover;
 }
@@ -315,7 +335,7 @@ section{
     font-weight: 600;
 }
 
-
+*/
 
 
 
@@ -329,10 +349,6 @@ section{
     padding: 0;
     box-sizing: border-box;
 
-}
-
-body, input, textarea{
-    font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -458,9 +474,9 @@ textarea.input{
 
 .btn {
     padding: 0.6rem 1.3rem;
-    background-color: #fff;
+    background-color: yellow;
     border: 2px solid var(--secondary-color);
-    font-size: 0.95rem;
+    font-size: 1.2rem;
     color: var(--primary-color);
     line-height: 1;
     border-radius: 25px;
@@ -468,6 +484,7 @@ textarea.input{
     cursor: pointer;
     transition: 0.3s;
     margin: 0;
+    margin-top: 25px;
 }
 
 .btn:hover{
