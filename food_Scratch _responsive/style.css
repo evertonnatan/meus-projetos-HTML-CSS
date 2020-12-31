@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,500;0,600;0,700;0,900;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary-color: #3F90EE;
+    --secondary-color: #fafafa
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -45,7 +51,7 @@ p{
     font-size: 1em;
     font-weight: 600;
     color: #fff;
-    background: #ff0157;
+    background: var(--primary-color);
     display: inline-block;
     border-radius: 12px;
     padding: 10px 30px;
@@ -91,7 +97,7 @@ header.sticky .logo{
 }
 
 header .logo span{
-    color: #ff0157;
+    color: var(--primary-color);
 }
 
 header .navigation{
@@ -115,7 +121,7 @@ header.sticky .navigation li a{
 }
 
 header .navigation li a:hover{
-    color: #ff0157;
+    color: var(--primary-color);
 }
 
 section{
@@ -141,7 +147,7 @@ section{
 }
 
 .titleText span{
-    color: #ff0157;
+    color: var(--primary-color);
     font-weight: 900;
     font-size: 1.5em;
 }
@@ -305,7 +311,7 @@ section{
     margin-top: 20px;
     color: #111;
     font-size: 1em;
-    color: #ff0157;
+    color: var(--primary-color);
     font-weight: 600;
 }
 
@@ -316,10 +322,7 @@ section{
 
 /* === STYLE FORM CONTACT */
 
-:root {
-    --primary-color: #3F90EE;
-    --secondary-color: #fafafa
-}
+
 
 *{
     margin: 0;
@@ -704,4 +707,20 @@ form,
     padding: 0.45rem 1.2rem;
 }
 
+}
+
+.copyrightText{
+    padding: 8px 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.copyrightText p{
+    color: #333;
+}
+
+.copyrightText a{
+    color: var(--primary-color);
+    font-weight: 700;
+    text-decoration: none;
 }
