@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .toggle{
@@ -207,4 +208,40 @@ p{
     width: 60px;
     height: 4px;
     background: #000;
+}
+
+.title.white h2,
+.title.white p{
+    color: #fff;
+}
+
+.title.white h2::before{
+    background: #fff;
+}
+
+.about{
+    background: #000;
+}
+
+.about .content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.about .content .textBx{
+    min-width: 49%;
+    width: 49%;
+}
+
+.about .content .textBx p{
+    color: #fff;
+}
+
+.about .content .imgBx{
+    margin-left: 40px;
+}
+
+.about .content .imgBx img{
+    max-width: 100%;
 }
