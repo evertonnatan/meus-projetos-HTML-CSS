@@ -245,3 +245,53 @@ p{
 .about .content .imgBx img{
     max-width: 100%;
 }
+
+.services .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.services .content .servicesBx{
+    padding: 40px 20px;
+    max-width: 340px;
+    margin: 20px;
+    transition: 0.5s;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+.services .content .servicesBx:hover{
+    background: #000;
+}
+
+.services .content .servicesBx img{
+    max-width: 80px;
+    transition: 0.5s;
+}
+
+.services .content .servicesBx:hover img{
+    filter: invert(1);
+}
+
+.services .content .servicesBx h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.services .content .servicesBx:hover h2{
+    color: #fff;
+}
+
+.services .content .servicesBx p{
+    margin: 0;
+    transition: 0.5s;
+}
+
+.services .content .servicesBx:hover p{
+    color: #fff;
+}
