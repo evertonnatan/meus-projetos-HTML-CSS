@@ -332,3 +332,8 @@ p{
     height: 100%;
     object-fit: cover;
 }
+
+.work .content .workBx .textBx{
+    background: #000;
+    
+}
