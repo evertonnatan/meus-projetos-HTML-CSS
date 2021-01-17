@@ -335,5 +335,24 @@ p{
 
 .work .content .workBx .textBx{
     background: #000;
-    
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.work .content .workBx:hover .textBx{
+    opacity: 1;
+}
+
+.work .content .workBx .textBx h3{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+.contact{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
