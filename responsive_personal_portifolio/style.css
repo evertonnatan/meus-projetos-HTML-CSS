@@ -355,4 +355,55 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.contact .contactForm{
+    position: relative;
+    width: 700px;
+    margin-top: 20px;
+}
+
+.contact .contactForm .row{
+    width: 100%;
+    display: flex;
+}
+
+.contact .contactForm .row .col50{
+    width: 50%;
+    margin: 10px;
+}
+
+.contact .contactForm .row .col100{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+}
+
+.contact .contactForm .row input,
+.contact .contactForm .row textarea{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: #111;
+    color: #fff;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 8px
+}
+
+.contact .contactForm .row textarea{
+    height: 100px;
+}
+
+.contact .contactForm .row input[type="submit"]{
+    background: #00bcd4;
+    color: #fff;
+    padding: 10px 30px;
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+    max-width: 150px;
 }
